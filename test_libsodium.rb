@@ -1,7 +1,7 @@
 require 'rbnacl'
 require_relative 'customization'
 
-puts "#{Customization::COLORS[:blue]}[cmdchat]#{Customization::FORMATS[:reset]} " +
+puts "#{Customization::COLORS[:red]}[testsodium]#{Customization::FORMATS[:reset]} " +
      "#{Customization::COLORS[:yellow]}Requesting random public & private keypairs to test Libsodium.#{Customization::FORMATS[:reset]}"
 
 begin
